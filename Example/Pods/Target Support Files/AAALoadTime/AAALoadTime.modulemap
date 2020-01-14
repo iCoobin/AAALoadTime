@@ -1,0 +1,6 @@
+framework module AAALoadTime {
+  umbrella header "AAALoadTime-umbrella.h"
+
+  export *
+  module * { export * }
+}

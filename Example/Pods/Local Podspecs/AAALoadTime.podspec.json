@@ -1,0 +1,22 @@
+{
+  "name": "AAALoadTime",
+  "version": "0.1.0",
+  "summary": "A short description of AAALoadTime.",
+  "description": "统计app加载时间，AAA是为了统计启动加载时间",
+  "homepage": "https://github.com/chengshoubin/AAALoadTime",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chengshoubin": "shoubin.cheng@longbridge.sg"
+  },
+  "source": {
+    "git": "git@github.com:iCoobin/AAALoadTime.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AAALoadTime/Classes/**/*"
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AAALoadTime_Example' do
+  pod 'AAALoadTime', :path => '../'
+
+  target 'AAALoadTime_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
