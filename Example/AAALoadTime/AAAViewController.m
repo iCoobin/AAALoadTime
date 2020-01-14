@@ -21,9 +21,11 @@
 	
     NSString *appLoadDuration = [AAALoadTime appLoadDuration];
     NSString *appInitDuration = [AAALoadTime appInitDuration];
+    NSString *appLaunchDuration = [AAALoadTime appLaunchDuration];
     
     NSLog(@"appLoadDuration:%@",appLoadDuration);
     NSLog(@"appInitDuration:%@",appInitDuration);
+    NSLog(@"appLaunchDuration:%@",appLaunchDuration);
     
 }
 

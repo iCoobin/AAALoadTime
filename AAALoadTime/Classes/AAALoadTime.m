@@ -74,4 +74,18 @@
     return duration;
 }
 
++ (nullable NSString *)appLaunchDuration
+{
+    NSDate *appStartLoadDate = [AAALoadTime shared].appStartLoadDate;
+    NSDate *appEndInitDate = [AAALoadTime shared].appEndInitDate;
+    if (!appStartLoadDate || !appEndInitDate) {
+        return nil;
+    }
+    NSTimeInterval start = [appStartLoadDate timeIntervalSince1970];
+    NSTimeInterval end = [appEndInitDate timeIntervalSince1970];
+    NSTimeInterval def = end - start;
+    NSString *duration = [NSString stringWithFormat:@"%.0lf",def*1000];
+    return duration;
+}
+
 @end

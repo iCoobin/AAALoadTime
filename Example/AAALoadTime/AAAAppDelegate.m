@@ -7,7 +7,7 @@
 //
 
 #import "AAAAppDelegate.h"
-#import <AAALoadTime/AAALoadTime-umbrella.h>
+#import <AAALoadTime/AAALoadTime.h>
 
 @implementation AAAAppDelegate
 

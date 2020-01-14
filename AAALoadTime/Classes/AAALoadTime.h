@@ -16,7 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //持续时间ms
 + (nullable NSString *)appLoadDuration;     //app加载耗时
-+ (nullable NSString *)appInitDuration;     //appc初始化耗时
++ (nullable NSString *)appInitDuration;     //app初始化耗时
++ (nullable NSString *)appLaunchDuration;   //app启动时长，从点击图标到初始化完成。
 
 @end
 
