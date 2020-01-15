@@ -1,5 +1,5 @@
 PODS:
-  - AAALoadTime (0.1.2)
+  - AAALoadTime (0.1.3)
 
 DEPENDENCIES:
   - AAALoadTime (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AAALoadTime: 627c6e25b85d97ab2834bb4fd9c637b27d93c322
+  AAALoadTime: 46c0f82841a8bb2c9c7940b4b660514fad07df9b
 
 PODFILE CHECKSUM: c4b5e2749672435f95fb567d900a2ced676306f6
 

@@ -16,8 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)appEndInit;             //app初始化结束
 + (void)appStartFirstSychWatchlist;//开始首次同步自选
 + (void)appEndFirstSychWatchlist;  //结束首次同步自选 首次同步
-+ (void)appStartFirstPageShow;     //开始首页显示
-+ (void)appEndFirstPageShow;       //结束首页数据 首屏数据
 
 #pragma mark - 时长
 //持续时间ms
@@ -25,7 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (nullable NSString *)appInitDuration;     //app初始化耗时
 + (nullable NSString *)appLaunchDuration;   //app启动时长，从点击图标到初始化完成。
 + (nullable NSString *)appFirstSychWatchlistDuration;//首次同步自选耗时
-+ (nullable NSString *)appFirstPageShowDuration;    //首屏显示耗时
 
 @end
 
